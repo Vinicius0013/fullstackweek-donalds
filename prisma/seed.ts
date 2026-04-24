@@ -1,4 +1,5 @@
 import "dotenv/config";
+
 import { db } from "../src/app/_lib/prisma";
 
 async function seedDatabase() {
